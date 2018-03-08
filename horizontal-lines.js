@@ -1,7 +1,7 @@
-for (var i = 1; i <= 480; i = i + 10) {
-  var startX = 10;
+for (var i = 1; i <= width; i = i + 10) {
+  var startX = 0;
   var startY = i;
-  var endX = width-10;
+  var endX = width;
   var endY = i;
   line(startX, startY, endX, endY);
 }
