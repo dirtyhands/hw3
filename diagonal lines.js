@@ -1,7 +1,9 @@
-background (0,0,0)
-stroke(color(360, 360));
-var count = 20;
-while (count < width){
-  line(10, count,count, 10);
-  count = count + 10;
+
+
+for (var i = 1; i <= width; i = i + 10) {
+  var startX = 1;
+  var startY = i;
+  var endX = i;
+  var endY = 1;
+  line(startX, startY, endX, endY);
 }
